@@ -1,0 +1,117 @@
+.sair {
+  padding: 3px 9px;
+  border: 1px solid #ea3838;
+  background: #ffe9e9;
+  color: #ea3838;
+  cursor: pointer;
+}
+
+.gerenciar {
+  border: none;
+  background-color: #000080;
+  color: #fff;
+  padding: 3px 6px;
+  cursor: pointer;
+}
+
+.gerenciar:hover {
+  background-color: #265ec7;
+}
+
+.btn-gray {
+  padding: 5px 10px;
+  color: #222;
+  background: #eaeaea;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-publicado {
+  padding: 10px 20px;
+  color: #f5f5f5;
+  background: #000080;
+  border: none;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn-naopublicado {
+  padding: 10px 20px;
+  color: #222;
+  background: #e3e3e3;
+  border: none;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Botão de envio */
+.cadastrar-button {
+  background-color: #03ce7d;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.cadastrar-button:hover {
+  background-color: #00b96e;
+}
+
+.reset-button {
+  background-color: #efbe12;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px 20px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.reset-button:hover {
+  background-color: #cfa406;
+}
+
+/* Botão de cancelamento */
+.cancelar-button {
+  background-color: #ff6347;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 19px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-right: 10px;
+}
+
+.cancelar-button:hover {
+  background-color: #d35247;
+}
+
+/* Botão de atualização */
+.atualizar-button {
+  background-color: #000080;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 19px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-right: 10px;
+}
+
+.atualizar-button:hover {
+  background-color: #265ec7;
+}

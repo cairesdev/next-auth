@@ -1,0 +1,56 @@
+.container-orgao-selecionado {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top-div {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: last baseline;
+  align-items: last baseline;
+}
+
+.container-orgao-selecionado .user-name-aside {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: Inter, sans-serif;
+  color: #222;
+}
+
+.orgao-tipo {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #424242;
+}
+
+.orgao-name {
+  font-size: 14px;
+  color: #424242;
+}
+
+.container-sessao-orgao {
+  padding: 10px 20px;
+  border: 1px solid #03ce7d;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  width: 320px;
+  gap: 10px;
+}
+
+.container-orgao-sessao {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 10px;
+}
+
+.box-orgao-selecionado {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}

@@ -1,0 +1,154 @@
+/* Estilos do formulário */
+.form-cadastro-modulo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+  background-color: #fff;
+  margin: 0 auto;
+  position: relative;
+}
+.form-cadastro-orgao {
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: #fff;
+  font-family: Inter, sans-serif;
+  margin: 0 auto;
+  padding: 10px;
+}
+.form-cadastro-orgao b {
+  color: #424242;
+}
+
+.form-cadastro-modulo input,
+.form-cadastro-orgao input {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: Inter, sans-serif;
+  margin-top: 10px;
+}
+
+.form-cadastro-modulo .input-full-modulo {
+  width: 300px;
+}
+
+.input-full-modulo.objeto {
+  width: 50vw;
+}
+
+.input-full-modulo.uf {
+  width: 60px;
+  text-transform: uppercase;
+}
+
+.form-cadastro-modulo .input-metade-modulo {
+  width: 160px;
+}
+
+.form-cadastro-modulo input:focus {
+  border: 1px solid var(--azul-secundario);
+  background-color: #f0f0f0;
+  outline: none;
+}
+
+.form-cadastro-modulo input::placeholder {
+  color: #888;
+}
+
+/* Estilos da caixa de seleção de arquivo */
+.input-file-container {
+  min-width: 300px;
+  height: 140px;
+  background-color: #f4fafc;
+  border: 2px dashed var(--azul-secundario);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+/* Se houver arquivo selecionado */
+
+.custom-input-file {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+}
+
+.custom-input-file.oculto {
+  z-index: -5;
+}
+
+/* Estilo do container */
+.sub-componentes {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Estilo dos inputs Radio */
+
+.radio-field {
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 8px;
+  font-family: Inter, sans-serif;
+  max-width: fit-content;
+}
+
+.field-title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.radio-options {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-options.row {
+  flex-direction: row;
+  gap: 20px;
+}
+
+.radio-option {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  gap: 10px;
+}
+
+.radio-option input {
+  margin-bottom: 9px;
+}
+
+.radio-option p {
+  color: #222;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.radio-option input:checked + p {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--azul-secundario);
+}

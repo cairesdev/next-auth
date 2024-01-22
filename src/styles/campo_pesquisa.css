@@ -1,0 +1,23 @@
+/* src/styles/campo_pesquisa.css */
+
+.container-pesquisa {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  position: relative;
+  padding: 0 0 10px; /* Correção na propriedade de padding */
+}
+
+.container-pesquisa input {
+  border: 1px solid #222;
+  padding: 10px 0 10px 40px; /* Correção na propriedade de padding */
+  border-radius: 8px;
+  width: 380px;
+  color: #222;
+}
+
+.container-pesquisa span {
+  position: absolute;
+  left: 10px;
+}

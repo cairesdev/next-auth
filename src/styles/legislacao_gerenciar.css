@@ -1,0 +1,26 @@
+.botoes-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px 10px;
+}
+
+.botoes-list-item a {
+  width: 240px;
+  min-height: 80px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 6px 0 #00000040;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.botoes-list-item a:hover {
+  background-color: #e7e7e7;
+}

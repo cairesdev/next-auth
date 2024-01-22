@@ -1,0 +1,59 @@
+.container-orgao {
+  border: 1px solid #ccc;
+}
+
+.cabecalho-orgao {
+  background-color: #f9f9ff;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+
+.lista-itens-orgao {
+  border-bottom: 1px solid #ccc;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 40px;
+}
+
+.lista-itens-orgao .token {
+  font-size: 10px;
+  word-break: break-all;
+}
+
+.lista-itens-orgao .nome {
+  color: #121212;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.lista-itens-orgao .desc {
+  font-size: 14px;
+  color: #222;
+}
+
+.ativo-item {
+  min-width: 90px;
+  text-align: center;
+}
+
+.desativada-status {
+  color: #ea3838;
+  background-color: #ffe9e9;
+  border-radius: 5px;
+  padding: 2px 5px;
+}
+
+.ativada-status {
+  color: #03ce7d;
+  background-color: #e8fbef;
+  border-radius: 5px;
+  padding: 2px 5px;
+}

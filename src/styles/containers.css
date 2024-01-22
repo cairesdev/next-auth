@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.box {
+  max-height: 95%;
+  width: 100%;
+  padding: 20px;
+}
+
+.not-found-orgao-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 100px);
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  color: var(--preto-secundario);
+}
+
+.guia-secao {
+  padding: 10px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.cadastro-rapido-window {
+  border: 3px solid #000080;
+  border-radius: 8px;
+  padding: 40px;
+}
+
+.container-buttons-actions-list {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  right: 0;
+  gap: 10px;
+  top: 10px;
+}

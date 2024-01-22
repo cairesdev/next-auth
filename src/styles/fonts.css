@@ -1,0 +1,19 @@
+.texto-span {
+  font-size: 10px;
+  color: #000080;
+}
+
+.texto-data {
+  font-size: 12px;
+  color: var(--preto-secundario);
+}
+
+.texto-legislacao-tipo {
+  color: var(--preto-base);
+  font-size: 14px;
+}
+
+.titulo-pagina {
+  font-size: 20px;
+  color: var(--preto-base);
+}
